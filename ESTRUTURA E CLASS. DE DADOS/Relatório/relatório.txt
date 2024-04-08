@@ -1,0 +1,13 @@
+1- Método main: É o ponto de entrada do programa. Ele exibe um menu de opções para o usuário, onde ele pode escolher entre três modos de manipulação de vetores (inserção, seleção e bolha), ou sair do programa.
+
+2- Cada um desses métodos executa uma operação específica conforme escolhido pelo usuário no menu.
+executaOpcao01(): Modo de inserção, onde o usuário insere valores no vetor e esses valores são ordenados usando o método de ordenação por inserção.
+executaOpcao02(): Modo de seleção, onde o usuário insere valores no vetor e esses valores são ordenados usando o método de ordenação por seleção.
+executaOpcao03(): Modo bolha, onde o usuário insere valores no vetor e esses valores são ordenados usando o método de ordenação por bolha.
+
+3- Todos os métodos de ordenação seguem um padrão, onde o usuário insere valores em um vetor e, em seguida, o vetor é ordenado usando o método correspondente.
+Após a ordenação, o vetor resultante é exibido em uma caixa de diálogo JOptionPane.
+
+4- O menu é apresentado dentro de um loop 'do-while', permitindo que o usuário escolha repetidamente as opções até optar por sair (opção 0).
+
+5- Resultados obtidos: o programa exibirá os vetores ordenados para os métodos de inserção, seleção e bolha, dependendo da escolha do usuário no menu apresentado. O usuário pode inserir o tamanho do vetor e os valores dos elementos para cada método de ordenação, e o programa irá apresentar o vetor ordenado de forma crescente, ou seja, do menor para o maior.
